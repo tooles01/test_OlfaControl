@@ -8,6 +8,8 @@ and offers a *simple* and *intuitive* API.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
+how to :ref:`README` the project.
+Check out the :doc:`README` section for further information, including
 
 test build trigger:
 Lumache hosts its documentation on Read the Docs.
