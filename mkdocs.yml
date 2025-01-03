@@ -1,32 +1,26 @@
+# This is the map of the whole thing
+
 site_name: 8-line Olfactometer - all of it
-#site_url: https://pycontrol.readthedocs.io/
+site_url: https://test-olfacontrol.readthedocs.io
 #site_description: Open source, Python based, behavioural experiment control.
 site_author: Shannon Toole
 theme:
     name: readthedocs
-    #logo: logo.png
-
-#markdown_extensions:
-#    - admonition
-#    - toc:
-#        permalink: True
 
 repo_url: https://github.com/tooles01/test_OlfaControl
 
 plugins:
     - search:
-    #    separator: '[\s\-\_\.]+'
 
 nav:
 - Home: index.md
 - 8-line Olfactometer:
-    - Electronics: 8-line Olfactometer/Electronics/README.md
+    - Overview: 8-line Olfactometer/readme.md
     - Hardware: 8-line Olfactometer/readme.md
-    #- Hardware: user-guide/hardware.md
+    - Electronics: 8-line Olfactometer/Electronics/README.md
     #- Synchronisation: user-guide/synchronisation.md 
     #- pyControl data: user-guide/pycontrol-data.md
     #- Troubleshooting: user-guide/troubleshooting.md
-#- Contributing: contributing.md
 - 8-line Mixing Chamber:
     - Electronics: 8-line Mixing Chamber/Electronics/README.md
     - Hardware: 8-line Mixing Chamber/For Manufacturing (Hardware)/README.md
