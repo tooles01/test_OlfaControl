@@ -1,38 +1,67 @@
-# 8-line Olfactometer Electronics
+# 8-line Olfactometer Hardware
 
-![image](images/MAIN_CNTRL_3D_PCB.png)
+<br>
 
+<!--
+<div class="grid" markdown>
 
-## PCB Assembly
-- Attach (x2) heat sinks to VR1 and VR2 using (x2) 4-40 x 1/4" screw and hex nut
-- Solder Arduino header pins onto PCB
-- Set I2C address on S1 (full dictionary of addresses is currently stored in master.ino source code)
-- Connect master Arduino
-    - Make a wire to connect from J2 (4pos Molex female) to master Arduino pins (Dupont male wires). Connect to SDA, SCL, GND and GND.
-    - (Mount master Arduino on top using Arduino holder 3D printed part)
+  ![olfa_front](images/olfa_front.jpg)
+  ![olfa_back](images/olfa_back.jpg)
 
-<br><br><br>
+</div>
+-->
+
+<!--
+<div class="grid" markdown>
+
+![Image title](https://dummyimage.com/600x400/f5f5f5/aaaaaa?text=1)
+
+![Image title](https://dummyimage.com/600x400/f5f5f5/aaaaaa?text=2)
+
+![Image title](https://dummyimage.com/600x400/f5f5f5/aaaaaa?text=3)
+
+![Image title](https://dummyimage.com/600x400/f5f5f5/aaaaaa?text=4)
+
+</div>
+-->
+
+<p align="left">
+  <img src="images/olfa_front.jpg" width="49%" align="left">
+  <img src="images/olfa_back.jpg" width="49%" align="right">
+</p>
+
+<br>
+<p align="center"><img src="images/8-line olfactometer unit.png" width="60%"></p>
+<br>
+
+# Parts to be manufactured
+to make a single 8-line unit:
+- (x1) top_cover
+- (x1) main_manifold_8v
+- (x8) main_manifold_cover
+
+<br>
 
 ## updates for version 2:
+- **main manifold:** mounting holes for main plate on both sides
+- **main manifold cover:** 0.01" decrease in length (screw holes are now symmetric)
 
-### power:
-- single 24V power supply (instead of 1x 24V supply and 1x 10V supply)
-    - voltage regulators & corresponding circuitry to shift down to 10V for the components that need it
-    - (2 voltage regulators + heat sinks to prevent overheating when multiple lines activated at once)
+<br><br>
 
-### error fixes:
-- fixes (x4) incorrectly wired proportional valves
-- removes connection between isolation valves 3 & 8
+# Troubleshooting
 
-### other:
-- multiple boards can be chained together by a single ribbon cable, which carries the power and I2C lines
-    - (only 1 board in the chain needs a 24V input, the rest receive power through the ribbon cable)
-- updated header for connecting to mixing chamber (standard 10pos IDC cable)
+### Hardware/PID testing:
 
-### new components:
-- (x8) LEDs to indicate isolation valve activated
-- (x2) LEDs to indicate power (10V, 24V)
-- (x1) connection for additional flow sensor
-- (x1) connection for additional proportional valve
-- (x2) connection for additional isolation valve
-- (x1) connection for Alicat MFC
+| Problem | Diagnosis | Solution |
+| ----------- | ----------- | ----------- |
+| Inconsistent, "squiggly" odor signal from PID | Likely something (probably part of the septum) caught in the needle, blocking air flow into the vial | Replace vial input needle |
+| Odor signal from one line is significantly higher/lower than others | Variety of possible issues | Check if flow sensor is hitting desired setpoint. <li>If no: Recalibrate flow sensor.</li><li>If yes: Replace proportional valve</li><br>If problem persists, check for leaks.|| Slow odor rise time | Leak | <li>Ensure vial cap is on tightly.</li><li>Replace tubing from vial to mixing chamber.</li><li>Check that isolation valve is completely screwed into mixing chamber.</li>|
+
+<br>
+
+### Electronics/GUI:
+
+| Problem | Solution |
+| ----------- | ----------- |
+| Olfactometer not sending back flow values once turned on | If it is sending back slave addresses: <li>Wait 30 seconds or so</li><li>Click "Get Slave Addresses" 1 or 2 times</li><li>If still a problem: Turn 24V power off and back on again, and repeat above steps</li><br>If it's not sending back slave addresses: <li>Check that PCB is receiving 24V power</li> <li>Check that master Arduino I2C pins are correctly connected</li><li>Re-upload master Arduino code</li>|
+| Zero flow reported from flow sensor, even when proportional valve signal is at max (255) | Replace proportional valve |
