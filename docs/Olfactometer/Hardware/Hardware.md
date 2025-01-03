@@ -11,7 +11,8 @@
 
   ![olfa_front](images/olfa_front.jpg)
   ![olfa_back](images/olfa_back.jpg)
-  ![unit]("images/8-line%20olfactometer%20unit.jpg")
+  ![unit](images/8-line%20olfactometer%20unit.jpg)
+  
 </div>
 
 <!--
