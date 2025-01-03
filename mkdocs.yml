@@ -4,7 +4,7 @@ site_name: pyControl
 #site_author: Thomas Akam
 theme:
     name: readthedocs
-    logo: logo.png
+    #logo: logo.png
 
 #markdown_extensions:
 #    - admonition
