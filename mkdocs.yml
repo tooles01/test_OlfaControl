@@ -25,6 +25,7 @@ nav:
     - Overview: Olfactometer/Olfactometer_Overview.md
     - Hardware: Olfactometer/Hardware/Hardware.md
     - Electronics: Olfactometer/Electronics/Electronics.md
+    - Troubleshooting: Olfactometer/Troubleshooting.md
     #- Synchronisation: user-guide/synchronisation.md 
     #- pyControl data: user-guide/pycontrol-data.md
     #- Troubleshooting: user-guide/troubleshooting.md
