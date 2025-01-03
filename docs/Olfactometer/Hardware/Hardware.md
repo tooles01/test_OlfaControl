@@ -1,17 +1,18 @@
 # 8-line Olfactometer Hardware
 
-<br>
+<!--<br>-->
+
+## image tests
 
 <!--
--->
+# this only shows the text
 <div class="grid" markdown>
 
   ![olfa_front](images/olfa_front.jpg)
   ![olfa_back](images/olfa_back.jpg)
-
 </div>
+-->
 
-<!--
 <div class="grid" markdown>
 
 ![Image title](https://dummyimage.com/600x400/f5f5f5/aaaaaa?text=1)
@@ -23,6 +24,8 @@
 ![Image title](https://dummyimage.com/600x400/f5f5f5/aaaaaa?text=4)
 
 </div>
+
+<!--
 -->
 
 <p align="left">
