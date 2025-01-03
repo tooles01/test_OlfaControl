@@ -8,13 +8,13 @@ build:
     python: "3.10"
 
 mkdocs:
-  configuration: mkdocs_pycontrol.yml
+  configuration: mkdocs.yml
 
 
 # Optionally declare the Python requirements required to build your docs
 python:
   install:
-    - requirements: docs/requirements.txt
+    - requirements: requirements.txt
 
 #sphinx:
 #  configuration: docs/source/conf.py
