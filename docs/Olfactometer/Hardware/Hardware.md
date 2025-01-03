@@ -6,13 +6,14 @@
 
 <!--
 # this only shows the text
+-->
 <div class="grid" markdown>
 
   ![olfa_front](images/olfa_front.jpg)
   ![olfa_back](images/olfa_back.jpg)
 </div>
--->
 
+<!--
 <div class="grid" markdown>
 
 ![Image title](https://dummyimage.com/600x400/f5f5f5/aaaaaa?text=1)
@@ -24,8 +25,6 @@
 ![Image title](https://dummyimage.com/600x400/f5f5f5/aaaaaa?text=4)
 
 </div>
-
-<!--
 -->
 
 <p align="left">
@@ -37,7 +36,7 @@
 <p align="center"><img src="images/8-line olfactometer unit.png" width="60%"></p>
 <br>
 
-# Parts to be manufactured
+## Parts to be manufactured
 to make a single 8-line unit:
 - (x1) top_cover
 - (x1) main_manifold_8v
@@ -51,7 +50,7 @@ to make a single 8-line unit:
 
 <br><br>
 
-# Troubleshooting
+## Troubleshooting
 
 ### Hardware/PID testing:
 

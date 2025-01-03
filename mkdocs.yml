@@ -9,6 +9,8 @@ theme:
     name: readthedocs
 
 markdown_extensions:
+    # these two allow for grid image shit
+    # https://squidfunk.github.io/mkdocs-material/reference/grids/
     - attr_list
     - md_in_html
 
