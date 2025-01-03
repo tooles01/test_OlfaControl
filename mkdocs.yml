@@ -18,7 +18,7 @@ plugins:
     #    separator: '[\s\-\_\.]+'
 
 nav:
-- Home: README.md
+- Home: index.md
 - 8-line Olfactometer:
     - Electronics: 8-line Olfactometer/Electronics/README.md
     - Hardware: 8-line Olfactometer/readme.md
