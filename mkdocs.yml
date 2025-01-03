@@ -1,7 +1,7 @@
-site_name: pyControl
+site_name: 8-line Olfactometer - all of it
 #site_url: https://pycontrol.readthedocs.io/
 #site_description: Open source, Python based, behavioural experiment control.
-#site_author: Thomas Akam
+site_author: Shannon Toole
 theme:
     name: readthedocs
     #logo: logo.png
@@ -11,15 +11,14 @@ theme:
 #    - toc:
 #        permalink: True
 
-#repo_url: https://github.com/pycontrol/pycontrol-docs
+repo_url: https://github.com/tooles01/test_OlfaControl
 
 plugins:
     - search:
-    #- search:
     #    separator: '[\s\-\_\.]+'
 
 nav:
-- Home: index.md
+- Home: README.md
 - 8-line Olfactometer:
     - Electronics: 8-line Olfactometer/Electronics/README.md
     - Hardware: 8-line Olfactometer/readme.md
