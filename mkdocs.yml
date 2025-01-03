@@ -16,7 +16,7 @@ nav:
 - Home: index.md
 - 8-line Olfactometer:
     - Overview: 8-line Olfactometer/readme.md
-    - Hardware: 8-line Olfactometer/readme.md
+    - Hardware: 8-line Olfactometer/Hardware/README.md
     - Electronics: 8-line Olfactometer/Electronics/README.md
     #- Synchronisation: user-guide/synchronisation.md 
     #- pyControl data: user-guide/pycontrol-data.md
