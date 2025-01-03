@@ -1,8 +1,8 @@
 # 8-line Olfactometer Hardware
 
-<!--<br>-->
-
+<!--<br>
 ## image tests
+-->
 
 <!--
 # this only shows the text
@@ -11,22 +11,11 @@
 
   ![olfa_front](images/olfa_front.jpg)
   ![olfa_back](images/olfa_back.jpg)
+  ![unit]("images/8-line olfactometer unit.jpg")
 </div>
 
 <!--
-<div class="grid" markdown>
-
-![Image title](https://dummyimage.com/600x400/f5f5f5/aaaaaa?text=1)
-
-![Image title](https://dummyimage.com/600x400/f5f5f5/aaaaaa?text=2)
-
-![Image title](https://dummyimage.com/600x400/f5f5f5/aaaaaa?text=3)
-
-![Image title](https://dummyimage.com/600x400/f5f5f5/aaaaaa?text=4)
-
-</div>
--->
-
+# just gives blank images
 <p align="left">
   <img src="images/olfa_front.jpg" width="49%" align="left">
   <img src="images/olfa_back.jpg" width="49%" align="right">
@@ -35,6 +24,8 @@
 <br>
 <p align="center"><img src="images/8-line olfactometer unit.png" width="60%"></p>
 <br>
+-->
+
 
 ## Parts to be manufactured
 to make a single 8-line unit:
