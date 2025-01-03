@@ -4,8 +4,13 @@ site_name: 8-line Olfactometer - all of it
 site_url: https://test-olfacontrol.readthedocs.io
 #site_description: Open source, Python based, behavioural experiment control.
 site_author: Shannon Toole
+
 theme:
     name: readthedocs
+
+markdown_extensions:
+    - attr_list
+    - md_in_html
 
 repo_url: https://github.com/tooles01/test_OlfaControl
 
