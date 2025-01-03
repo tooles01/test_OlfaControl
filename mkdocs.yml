@@ -22,7 +22,6 @@ plugins:
 nav:
 - Home: index.md
 - 8-line Olfactometer:
-    - Overview: Olfactometer/Olfactometer_Overview.md
     - Hardware: Olfactometer/Hardware/Hardware.md
     - Electronics: Olfactometer/Electronics/Electronics.md
     - Troubleshooting: Olfactometer/Troubleshooting.md
