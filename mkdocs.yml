@@ -15,15 +15,15 @@ plugins:
 nav:
 - Home: index.md
 - 8-line Olfactometer:
-    - Overview: 8-line Olfactometer/Olfactometer_Overview.md
-    - Hardware: 8-line Olfactometer/Hardware/Hardware.md
-    - Electronics: 8-line Olfactometer/Electronics/Electronics.md
+    - Overview: Olfactometer/Olfactometer_Overview.md
+    - Hardware: Olfactometer/Hardware/Hardware.md
+    - Electronics: Olfactometer/Electronics/Electronics.md
     #- Synchronisation: user-guide/synchronisation.md 
     #- pyControl data: user-guide/pycontrol-data.md
     #- Troubleshooting: user-guide/troubleshooting.md
 - 8-line Mixing Chamber:
-    - Electronics: 8-line Mixing Chamber/Electronics/README.md
-    - Hardware: 8-line Mixing Chamber/For Manufacturing (Hardware)/README.md
+    - Electronics: Mixing-Chamber/Electronics/README.md
+    - Hardware: Mixing-Chamber/For Manufacturing (Hardware)/README.md
 
 #- About:
 #    - Release notes: about/release-notes.md
