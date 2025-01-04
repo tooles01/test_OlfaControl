@@ -1,26 +1,20 @@
 # 8-line Olfactometer Hardware
 
-<!--<br>
--->
-
-## image tests
-
 <!--
-# this only shows the text
--->
+# shows blank images but works on index.md for some reason????
 
 <p align="center">
   <img src="images/olfa_front.jpg" width="40%">
   <img src="images/olfa_back.jpg" width="40%">
 </p>
 <br>
+-->
 
 <p align="center"><img src="images/8-line olfactometer unit.png" width="70%"></p>
 <br>
 
 <!--
-## hello
-
+# working, all vertical
 
 <div class="grid" markdown>
 
