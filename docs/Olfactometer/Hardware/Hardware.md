@@ -13,8 +13,8 @@
   <img src="images/olfa_front.jpg" width="40%">
   <img src="images/olfa_back.jpg" width="40%">
 </p>
-
 <br>
+
 <p align="center"><img src="images/8-line olfactometer unit.png" width="70%"></p>
 <br>
 
