@@ -1,8 +1,9 @@
 # 8-line Olfactometer Hardware
 
 <!--<br>
-## image tests
 -->
+
+## image tests
 
 <!--
 # this only shows the text
@@ -17,6 +18,7 @@
 <p align="center"><img src="images/8-line olfactometer unit.png" width="70%"></p>
 <br>
 
+## hello
 
 
 <div class="grid" markdown>
