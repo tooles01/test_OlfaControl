@@ -18,6 +18,7 @@
 <p align="center"><img src="images/8-line olfactometer unit.png" width="70%"></p>
 <br>
 
+<!--
 ## hello
 
 
@@ -28,6 +29,7 @@
   ![unit](images/8-line olfactometer unit.png)
 
 </div>
+-->
 
 <!--
 # just gives blank images
