@@ -7,12 +7,24 @@
 <!--
 # this only shows the text
 -->
+
+<p align="center">
+  <img src="images/olfa_front.jpg" width="40%">
+  <img src="images/olfa_back.jpg" width="40%">
+</p>
+
+<br>
+<p align="center"><img src="images/8-line olfactometer unit.png" width="70%"></p>
+<br>
+
+
+
 <div class="grid" markdown>
 
   ![olfa_front](images/olfa_front.jpg)
   ![olfa_back](images/olfa_back.jpg)
-  ![unit](images/8-line%20olfactometer%20unit.jpg)
-  
+  ![unit](images/8-line olfactometer unit.png)
+
 </div>
 
 <!--
