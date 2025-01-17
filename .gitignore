@@ -1,0 +1,22 @@
+# temporary while I try to debug (1/3/2025)
+
+.gitignore
+*.code-workspace
+x_*
+
+
+docs/Mixing-Chamber/Clippard 8-MC BOM.xlsx
+docs/Mixing-Chamber/v01 (Lee 8-MC)
+docs/Olfactometer/8-line olfa hardware BOM.xlsx
+docs/Olfactometer/Hardware/3D printed parts
+
+
+
+# add these back in once you figure this shit out
+
+
+docs/Mixing-Chamber/Assembly_instructions.md
+docs/Mixing-Chamber/README.rst
+docs/Olfactometer/Assembly_instructions.md
+docs/Olfactometer/Disassembly (for off-manifold calibration).md
+docs/Olfactometer/Flow_Sensor_Calibration_Protocol.md
