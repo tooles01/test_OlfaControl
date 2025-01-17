@@ -21,7 +21,6 @@
 
 ## Getting Started
 
-
 ### Software Installation
 
 **Python versions**: As of 4/29/2024: GUI is currently compatible with Python 3.9, 3.10, 3.12  
@@ -33,7 +32,7 @@
         - Click "Download ZIP"
         - Save the folder to a directory on your computer.
 2. Open the command prompt and navigate to the directory the folder is stored in.
-3. *Optional:* Create & activate a virtual environment (instructions below)
+3. *Optional:* Create & activate a [virtual environment](Resources\virtual_environment.md)
 4. Install the required packages by entering: ``` pip install -r requirements.txt ``` into the command prompt.
 5. Run the GUI: ```python olfa_driver_48line.py```  
     (Big Program for running automated stuff/adding PID: ```python main.py```)  
@@ -43,18 +42,15 @@
 The olfa driver has a ZMQ subscriber socket, allowing it to receive messages from a ZMQ publisher. The default address is "tcp://127.0.0.1:5556" (can be manually edited in the heading of *olfa_driver_48line.py*).  
 
 Strings received from a ZMQ publisher are sent directly to the master Arduino and **MUST** match the format outlined at [OlfaControl_Arduino](https://github.com/tooles01/OlfaControl_Arduino/blob/master/README.md), with the exception of setpoint updates.  Setpoint updates can be sent as SCCM values - they are parsed and converted into integer values within the olfa driver.  
-<br>
 
 Example of setpoint update sent from ZMQ publisher:
-```
+```C
 S_Sp_50_A1      // Set A1 setpoint to 50 SCCM (olfa driver converts from SCCM to integer before sending to master Arduino)
 ```
 Example of setpoint update sent directly to master Arduino:  
-```
+```C
 S_Sp_547_A1     // Set A1 setpooint to 547 (integer value)
 ```
-<br>
-
 
 ## Quick Start:
 
@@ -64,8 +60,6 @@ S_Sp_547_A1     // Set A1 setpooint to 547 (integer value)
 4. Load config file  
 5. Optional: Connect to ZMQ server  
 <br>
-
-
 
 ## Calibration tables & Config files
 ### Calibration tables
@@ -82,10 +76,15 @@ To easily load these calibration tables into the GUI, you can use a config file 
 
 This allows for quickly loading all calibration tables into the GUI all at once (as opposed to manually entering them into the Vial Details box for each line).  
 *<p align="center"> *Example config file:*  </p>*
-<p align="center"> <img src="images/setup_GUI_03_configFile.png" width="30%"></p>
+<!--
+<p align="center"> <img src="images/setup_GUI_03_configFile.png" width="30%"></p>-->
+![setup_GUI_03](images/setup_GUI_03_configFile.png)
 
 With the GUI open, click "Load config file" and select the config file. (This must be done each time the GUI is closed and reopened.)  
-<p align="center"> <img src="images/setup_GUI_02_loadConfig.png" width="70%"></p>
+
+<!--<p align="center"> <img src="images/setup_GUI_02_loadConfig.png" width="70%"></p>-->
+![setup_GUI_02](images/setup_GUI_02_loadConfig.png)
 
 To confirm that the config file loaded correctly, open up one of the Vial Details boxes and check that the intended calibration table for that miniMFC is selected.  
-<p align="center"> <img src="images/setup_GUI_vialDetails.png" width="70%"></p>
+![setup_GUI_vialDetails](images/setup_GUI_vialDetails.png)
+<!--<p align="center"> <img src="images/setup_GUI_vialDetails.png" width="70%"></p>-->
