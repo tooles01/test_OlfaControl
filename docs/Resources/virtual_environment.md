@@ -7,20 +7,25 @@ It's not necessary to create one in order to use this GUI, but if you choose to,
 
 1. Open the command prompt and navigate to the directory where you want the environment created. (For this circumstance, you'll probably want that to be the folder that these files are stored in, "OlfaControl_GUI".)  
 
-    <img src="../images/setup_venv_01.png" width="80%">
+    ![setup_venv_01.png](../images/setup_venv_01.png)
 
 2. Create the environment:  
-    ``` python -m venv <name of environment>\ ```  
+    ```
+    python -m venv <name of environment>\
+    ```
     
     To create an environment using a specific python version:  
-    ``` <path to python version> -m venv <name of environment>\ ```  
+    ```
+    <path to python version> -m venv <name of environment>\
+    ```
     
-    <img src="../images/setup_venv_02.png" width="80%">
+    ![setup_venv_02.png](../images/setup_venv_02.png)
 
 3. Activate the virtual environment:  
-    ```<name of environment>\scripts\activate.bat```
+    ```
+    <name of environment>\scripts\activate.bat
+    ```
     
     ![setup_venv_03.png](../images/setup_venv_03.png)
-    <!--<img src="../images/setup_venv_03.png" width="80%">-->
 
 Once in the environment, you'll have access to all of the packages specifically installed there.
