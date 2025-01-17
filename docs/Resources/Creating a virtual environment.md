@@ -20,6 +20,7 @@ It's not necessary to create one in order to use this GUI, but if you choose to,
 3. Activate the virtual environment:  
     ```<name of environment>\scripts\activate.bat```
     
-    <img src="../images/setup_venv_03.png" width="80%">
+    ![setup_venv_03.png](../images/setup_venv_03.png)
+    <!--<img src="../images/setup_venv_03.png" width="80%">-->
 
 Once in the environment, you'll have access to all of the packages specifically installed there.

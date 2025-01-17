@@ -32,7 +32,7 @@ nav:
     - Electronics: Mixing-Chamber/Electronics/README.md
     - Hardware: Mixing-Chamber/For Manufacturing (Hardware)/README.md
 - Resources:
-    - Virtual Environment: Resources/Virtual Environment.md
+    - Virtual Environment: Resources/Creating a virtual environment.md
 
 #- About:
 #    - Release notes: about/release-notes.md
