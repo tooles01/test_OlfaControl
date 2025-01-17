@@ -33,6 +33,7 @@ nav:
     - Hardware: Mixing-Chamber/For Manufacturing (Hardware)/README.md
 - Resources:
     - Creating a virtual environment: Resources/virtual_environment.md
+    - Flow Sensor Calibration: Resources/flow_sensor_calibration.md
 
 #- About:
 #    - Release notes: about/release-notes.md
