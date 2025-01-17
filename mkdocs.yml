@@ -31,6 +31,8 @@ nav:
 - 8-line Mixing Chamber:
     - Electronics: Mixing-Chamber/Electronics/README.md
     - Hardware: Mixing-Chamber/For Manufacturing (Hardware)/README.md
+- Resources:
+    - Virtual Environment: Resources/Virtual Environment.md
 
 #- About:
 #    - Release notes: about/release-notes.md

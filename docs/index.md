@@ -39,16 +39,7 @@
     (Big Program for running automated stuff/adding PID: ```python main.py```)  
 <br>
 
-## Quick Start:
-
-1. Activate virtual environment  
-2. Run GUI: `python olfa_driver_48line.py`  
-3. Connect to Arduino  
-4. Load config file  
-5. Optional: Connect to ZMQ server  
-<br>
-
-## ZMQ
+### ZMQ
 The olfa driver has a ZMQ subscriber socket, allowing it to receive messages from a ZMQ publisher. The default address is "tcp://127.0.0.1:5556" (can be manually edited in the heading of *olfa_driver_48line.py*).  
 
 Strings received from a ZMQ publisher are sent directly to the master Arduino and **MUST** match the format outlined at [OlfaControl_Arduino](https://github.com/tooles01/OlfaControl_Arduino/blob/master/README.md), with the exception of setpoint updates.  Setpoint updates can be sent as SCCM values - they are parsed and converted into integer values within the olfa driver.  
@@ -63,6 +54,18 @@ Example of setpoint update sent directly to master Arduino:
 S_Sp_547_A1     // Set A1 setpooint to 547 (integer value)
 ```
 <br>
+
+
+## Quick Start:
+
+1. Activate virtual environment  
+2. Run GUI: `python olfa_driver_48line.py`  
+3. Connect to Arduino  
+4. Load config file  
+5. Optional: Connect to ZMQ server  
+<br>
+
+
 
 ## Calibration tables & Config files
 ### Calibration tables
@@ -86,31 +89,3 @@ With the GUI open, click "Load config file" and select the config file. (This mu
 
 To confirm that the config file loaded correctly, open up one of the Vial Details boxes and check that the intended calibration table for that miniMFC is selected.  
 <p align="center"> <img src="images/setup_GUI_vialDetails.png" width="70%"></p>
-<br>
-
-#
-## Creating a virtual environment:
-
-A virtual environment is a space separate from your main python install, where you can install just the packages needed for this project (without affecting your global python packages).  
-
-It's not necessary to create one in order to use this GUI, but if you choose to, don't forget to activate it **each time** before running the GUI, or it may not run properly.  
-<br>
-
-1. Open the command prompt and navigate to the directory where you want the environment created. (For this circumstance, you'll probably want that to be the folder that these files are stored in, "OlfaControl_GUI".)  
-
-    <img src="images/setup_venv_01.png" width="80%">
-
-2. Create the environment:  
-    ``` python -m venv <name of environment>\ ```  
-    
-    To create an environment using a specific python version:  
-    ``` <path to python version> -m venv <name of environment>\ ```  
-    
-    <img src="images/setup_venv_02.png" width="80%">
-
-3. Activate the virtual environment:  
-    ```<name of environment>\scripts\activate.bat```
-    
-    <img src="images/setup_venv_03.png" width="80%">
-
-Once in the environment, you'll have access to all of the packages specifically installed there.
