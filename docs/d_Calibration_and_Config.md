@@ -2,9 +2,9 @@
 ### Calibration tables
 
 To read from each flow sensor, the GUI uses a calibration table to convert the data from voltage to flow rate.  
-<p align="center"> <img src="../images/Flow Sensor-GUI-Calibration table.png" width="100%"></p>
+<p align="center"> <img src="../images/Flow Sensor-GUI-Calibration table.png" width="60%"></p>
 
-Each flow sensor has a slightly different calibration, so it is recommended to use the calibration table specific to each individual sensor to ensure accurate flow control. (Further information on calibrating flow sensors can be found [here](Resources/flow_sensor_calibration.md).  
+Each flow sensor has a slightly different calibration, so it is recommended to use the calibration table specific to each individual sensor to ensure accurate flow control. (Further information on calibrating flow sensors can be found [here](r_flow_sensor_calibration.md).  
 
 ***Note:*** Calibration tables need to be in a folder called **calibration_tables** within the OlfaControl_GUI folder.  
 ### Config files

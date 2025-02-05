@@ -21,12 +21,15 @@ plugins:
 
 nav:
 - Home: index.md
+
 - User Guide:
     - Getting Started: ug_Getting_Started.md
-    - Calibration tables & Config files: ug_Calibration_and_Config.md
+    
 - Details:
     - Hardware: d_Hardware.md
+    - Calibration tables & Config files: d_Calibration_and_Config.md
     - Troubleshooting: d_Troubleshooting.md
+
 - 8-line Olfactometer:
     - Hardware: Olfactometer/Hardware/Hardware.md
     - Electronics: Olfactometer/Electronics/Electronics.md
@@ -34,17 +37,15 @@ nav:
     #- Synchronisation: user-guide/synchronisation.md 
     #- pyControl data: user-guide/pycontrol-data.md
     #- Troubleshooting: user-guide/troubleshooting.md
+
 - 8-line Mixing Chamber:
     - Electronics: Mixing-Chamber/Electronics/README.md
     - Hardware: Mixing-Chamber/For Manufacturing (Hardware)/README.md
+
 - Resources:
     - Creating a virtual environment: r_virtual_environment.md
     - ZMQ: r_ZMQ.md
     - Flow Sensor Calibration: r_flow_sensor_calibration.md
-
-#- About:
-#    - Release notes: about/release-notes.md
-#    - License: about/license.md
 
 #- Quick Links:
 #    - Help and discussions: https://github.com/orgs/pyControl/discussions
