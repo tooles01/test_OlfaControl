@@ -53,7 +53,7 @@ The hardware setup must be modified to ensure the entirety of the Alicat MFC out
 <br>
 
 
-## Software
+## Software setup
 
 ### Create File
 

@@ -22,11 +22,11 @@ plugins:
 nav:
 - Home: index.md
 - User Guide:
-    - Getting Started: User_Guide/Getting_Started.md
-    - Calibration tables & Config files: User_Guide/Calibration_and_Config.md
+    - Getting Started: ug_Getting_Started.md
+    - Calibration tables & Config files: ug_Calibration_and_Config.md
 - Details:
-    - Hardware: Details/Hardware.md
-    - Troubleshooting: Details/Troubleshooting.md
+    - Hardware: d_Hardware.md
+    - Troubleshooting: d_Troubleshooting.md
 - 8-line Olfactometer:
     - Hardware: Olfactometer/Hardware/Hardware.md
     - Electronics: Olfactometer/Electronics/Electronics.md
@@ -38,9 +38,9 @@ nav:
     - Electronics: Mixing-Chamber/Electronics/README.md
     - Hardware: Mixing-Chamber/For Manufacturing (Hardware)/README.md
 - Resources:
-    - Creating a virtual environment: Resources/virtual_environment.md
-    - ZMQ: Resources/ZMQ.md
-    - Flow Sensor Calibration: Resources/flow_sensor_calibration.md
+    - Creating a virtual environment: r_virtual_environment.md
+    - ZMQ: r_ZMQ.md
+    - Flow Sensor Calibration: r_flow_sensor_calibration.md
 
 #- About:
 #    - Release notes: about/release-notes.md
