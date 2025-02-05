@@ -3,7 +3,7 @@
 
 To read from each flow sensor, the GUI uses a calibration table to convert the data from voltage to flow rate.  
 
-<p align="center"> <img src="../images/Flow Sensor-GUI-Calibration table.png" width="100%"></p>
+<p align="center"> <img src="../images/Flow_Sensor-GUI-Calibration_table.png" width="100%"></p>
 
 ![example_calibration_table](../images/Flow Sensor-GUI-Calibration table.png)
 
