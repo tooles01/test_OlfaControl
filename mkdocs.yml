@@ -22,7 +22,7 @@ plugins:
 nav:
 - Home: index.md
 - User Guide:
-    - Troubleshooting: resources/Troubleshooting.md
+    - Troubleshooting: Resources/Troubleshooting.md
 - 8-line Olfactometer:
     - Hardware: Olfactometer/Hardware/Hardware.md
     - Electronics: Olfactometer/Electronics/Electronics.md
