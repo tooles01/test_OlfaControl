@@ -21,10 +21,12 @@ plugins:
 
 nav:
 - Home: index.md
+- User Guide:
+    - Troubleshooting: resources/Troubleshooting.md
 - 8-line Olfactometer:
     - Hardware: Olfactometer/Hardware/Hardware.md
     - Electronics: Olfactometer/Electronics/Electronics.md
-    - Troubleshooting: Olfactometer/Troubleshooting.md
+    #- Troubleshooting: Olfactometer/Troubleshooting.md
     #- Synchronisation: user-guide/synchronisation.md 
     #- pyControl data: user-guide/pycontrol-data.md
     #- Troubleshooting: user-guide/troubleshooting.md
@@ -33,6 +35,7 @@ nav:
     - Hardware: Mixing-Chamber/For Manufacturing (Hardware)/README.md
 - Resources:
     - Creating a virtual environment: Resources/virtual_environment.md
+    - ZMQ: Resources/ZMQ.md
     - Flow Sensor Calibration: Resources/flow_sensor_calibration.md
 
 #- About:
