@@ -1,5 +1,7 @@
 # Clippard 8-line Mixing Chamber
 
+<p align="center"><img src="images/Clippard 8-MC v2A heart order details.png" width="60%"></p>
+
 ## Electronics
 
 ![image](images/Clippard_8-MC_3D_PCB.png)
