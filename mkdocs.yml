@@ -24,11 +24,18 @@ nav:
 
 - User Guide:
     - Getting Started: ug_Getting_Started.md
-    
+    - Using the GUI: ug_Using_GUI.md
+    - Mixing Chamber: ug_mixing_chamber.md
+
+#- 8-line Mixing Chamber:
+#    - Electronics: Mixing-Chamber/Electronics/mc_electronics_README.md
+#    - Hardware: Mixing-Chamber/For Manufacturing (Hardware)/mc_hardware_README.md
+
 - Details:
     - Hardware: d_Hardware.md
     - Calibration tables & Config files: d_Calibration_and_Config.md
     - Troubleshooting: d_Troubleshooting.md
+
 
 - 8-line Olfactometer:
     - Hardware: Olfactometer/Hardware/Hardware.md
@@ -38,9 +45,6 @@ nav:
     #- pyControl data: user-guide/pycontrol-data.md
     #- Troubleshooting: user-guide/troubleshooting.md
 
-- 8-line Mixing Chamber:
-    - Electronics: Mixing-Chamber/Electronics/README.md
-    - Hardware: Mixing-Chamber/For Manufacturing (Hardware)/README.md
 
 - Resources:
     - Creating a virtual environment: r_virtual_environment.md
