@@ -16,8 +16,7 @@ To be used with 8-line Olfactometer PCB (MAIN_CNTRL_v02).
 1/32" ID where NResearch fittings connect (odor in, exhaust)  
 3/64" ID for the rest of it (clean air in, valve outlet)  
 
-<br>
-<br>
+<br><br>
 
 ### Drawing files
 
@@ -30,8 +29,7 @@ To be used with 8-line Olfactometer PCB (MAIN_CNTRL_v02).
 **Clippard 8-MC heart v2A_full.dwg**  
 ^^ created by me (later) for my own reference
 
-<br>
-<br>
+<br><br>
 
 ### Changes from v1 to v2:
 
@@ -45,8 +43,7 @@ To be used with 8-line Olfactometer PCB (MAIN_CNTRL_v02).
 #### Clippard 8-MC cover:
 - PCB mounting holes: just picked a dimension since it seems last time it was made up  
 
-<br>
-<br>
+<br><br>
 
 ### Manufacturing details
 
@@ -56,19 +53,19 @@ Clippard 8-MC v2A
 **Material:** Stainless Steel 303  
 **Surface Roughness:** 125uin/3.2um Ra
 
-<br>
-<br>
+<br><br>
 
 <p align="center"><img src="images/Clippard 8-MC v2A heart order details.png" width="60%"></p>
+
 <p align="center"><img src="images/Clippard 8-MC v2A cover order details.png" width="60%"></p>
 
 with %20
 
 <p align="center"><img src="images/Clippard%208-MC%20v2A%20heart%20order%20details.png" width="60%"></p>
+
 <p align="center"><img src="images/Clippard%208-MC%20v2A%20cover%20order%20details.png" width="60%"></p>
 
-
-with [!]
+WITH [!]
 
 ![image1](images/Clippard%208-MC%20v2A%20heart%20order%20details.png)
 ![image2](images/Clippard%208-MC%20v2A%20cover%20order%20details.png)
