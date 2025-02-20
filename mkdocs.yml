@@ -32,6 +32,9 @@ nav:
 #    - Electronics: Mixing-Chamber/Electronics/mc_electronics_README.md
 #    - Hardware: Mixing-Chamber/For Manufacturing (Hardware)/mc_hardware_README.md
 
+- Data Analysis:
+    - Loading datafiles: ug_analysis_load.md
+    - Plotting data: ug_analysis_plot.md
 - Details:
     - Hardware: d_Hardware.md
     - Calibration tables & Config files: d_Calibration_and_Config.md
