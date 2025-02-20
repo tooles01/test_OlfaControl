@@ -10,7 +10,7 @@ Best practice is to download/clone the entire folder, "analysis/functions" conta
 (*import_datafile.m* will not run otherwise)  
 <br>
 
-# Load data files:
+## Load data files:
 ### analysis_get_and_parse_files.m
 Get raw \*.csv datafile and save as \*.mat file.  
 #### Description:
@@ -34,7 +34,7 @@ Get raw \*.csv datafile and save as \*.mat file.
 **More details [here](Documentation/README_analysis_get_and_parse_files.md)**  
 <br>
 
-# Plotting:
+## Plotting:
 
 ### a_plot_olfa_and_pid.m
 Plot olfactometer & PID data over time  
