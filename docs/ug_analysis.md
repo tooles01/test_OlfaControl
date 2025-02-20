@@ -1,4 +1,4 @@
-# MATLAB scripts for plotting/data anslysis
+# MATLAB scripts for plotting/data analysis
 
 Analyze datafiles (created by running main.py) using the MATLAB scripts found at [OlfaControl_GUI\analysis](https://github.com/tooles01/OlfaControl_GUI/tree/shannon-branch/analysis).
 
@@ -45,7 +45,14 @@ Plot olfactometer & PID data over time
 
 **Example:**  
 `a_plot_olfa_and_pid('2023-11-02_datafile_04',pid_lims=[0 3.5]);`
-<p align="center"><img src="Documentation/images/examples/plot_olfapid_default.jpg" width="50%"></p>
+
+p img src="images/images_analysis/plot_olfapid_default.jpg" width="50%"
+
+<p align="center"><img src="images/images_analysis/plot_olfapid_default.jpg" width="50%"></p>
+
+plot_olfapid_default (images/images_analysis/plot_olfapid_default.jpg)
+
+![plot_olfapid_default](images/images_analysis/plot_olfapid_default.jpg)
 
 <details>
 <summary>Dependencies:</summary>
