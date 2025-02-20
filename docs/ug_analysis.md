@@ -45,13 +45,6 @@ Plot olfactometer & PID data over time
 
 **Example:**  
 `a_plot_olfa_and_pid('2023-11-02_datafile_04',pid_lims=[0 3.5]);`
-
-p img src="images/images_analysis/plot_olfapid_default.jpg" width="50%"
-
-<p align="center"><img src="images/images_analysis/plot_olfapid_default.jpg" width="50%"></p>
-
-plot_olfapid_default (images/images_analysis/plot_olfapid_default.jpg)
-
 ![plot_olfapid_default](images/images_analysis/plot_olfapid_default.jpg)
 
 <details>
@@ -71,7 +64,8 @@ plot_olfapid_default (images/images_analysis/plot_olfapid_default.jpg)
 `a_plot_spt_char(filename,plot_opts)` plots the setpoint characterization figure (flow vs. PID) of the given file using the additional plot options specified.  
 
 **Example:**  
-`a_plot_spt_char('2024-01-09_datafile_01');`<p align="center"><img src="Documentation/images/examples/spt_char_default.jpg" width="40%"></p>
+`a_plot_spt_char('2024-01-09_datafile_01');`
+![spt_char_default](images/images_analysis/spt_char_default.jpg)
 
 <details>
 <summary>Dependencies:</summary>
