@@ -10,10 +10,10 @@
 **Example:**  
 `a_plot_olfa_and_pid('2023-11-02_datafile_04',pid_lims=[0 3.5]);`  
 Plots datafile "2023-11-02_datafile_04" with PID (Y-axis) limits set from 0 to 3.5.
+
 ![plot_olfapid_default](images/images_analysis/plot_olfapid_default.jpg)
-
 **More details [here](https://github.com/tooles01/OlfaControl_GUI/blob/shannon-branch/analysis/Documentation/README_a_plot_olfa_and_pid.md)**  
-
+<br>
 
 ## a_plot_spt_char.m
 **Plots setpoint characterization of trial** (Flow v. PID plot)  
@@ -25,8 +25,8 @@ Plots datafile "2023-11-02_datafile_04" with PID (Y-axis) limits set from 0 to 3
 **Example:**  
 `a_plot_spt_char('2024-01-09_datafile_01');`
 ![spt_char_default](images/images_analysis/spt_char_default.jpg)
-
 **More details [here](https://github.com/tooles01/OlfaControl_GUI/blob/shannon-branch/analysis/Documentation/README_a_plot_spt_char.md)**  
+<br>
 
 
 ## a_plot_on_top
@@ -36,6 +36,7 @@ Plots datafile "2023-11-02_datafile_04" with PID (Y-axis) limits set from 0 to 3
 `a_plot_on_top(file_names,a_title,a_subtitle)` plots the files in the array `file_names`  
 
 **More details [here](https://github.com/tooles01/OlfaControl_GUI/blob/shannon-branch/analysis/Documentation/README_a_plot_on_top.md)**
+<br>
 
 
 ## analysis_plot_standard_olfa.m

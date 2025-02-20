@@ -34,7 +34,7 @@ nav:
 
 - Data Analysis:
     - Loading datafiles: ug_analysis_load.md
-    - Plotting data: ug_analysis_plot.md
+    - Plotting: ug_analysis_plot.md
 - Details:
     - Hardware: d_Hardware.md
     - Calibration tables & Config files: d_Calibration_and_Config.md
