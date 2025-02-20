@@ -1,7 +1,7 @@
-## Getting Started
+# Getting Started
 
 <!--### Software Installation-->
-### GUI Install
+## GUI Install
 
 **Python versions**: As of 4/29/2024: GUI is currently compatible with Python 3.9, 3.10, 3.12  
 
@@ -19,7 +19,7 @@
 <br>
 
 
-### Hardware setup
+## Hardware setup
 
 Need 1000cc input air (Alicat) (& corresponding power/control cables)
 
@@ -28,7 +28,7 @@ Need 1000cc input air (Alicat) (& corresponding power/control cables)
 <br>
 
 
-## Quick Start
+# Quick Start
 
 1. Activate virtual environment  
 2. Run GUI: `python olfa_driver_48line.py`  
