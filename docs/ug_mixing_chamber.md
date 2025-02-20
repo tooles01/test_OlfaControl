@@ -1,6 +1,8 @@
 # Clippard 8-line Mixing Chamber
 
+<!-- DOESN'T WORK
 <p align="center"><img src="images/Clippard 8-MC v2A heart order details.png" width="60%"></p>
+-->
 
 ## Electronics
 
