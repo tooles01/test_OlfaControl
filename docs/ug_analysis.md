@@ -2,7 +2,7 @@
 
 Analyze datafiles (created by running main.py) using the MATLAB scripts found at [OlfaControl_GUI\analysis](https://github.com/tooles01/OlfaControl_GUI/tree/shannon-branch/analysis).
 
-Best practice is to download/clone the entire folder, "analysis/functions" contains the dependencies for the plotting scripts (they will not run without those functions).
+Best practice is to download/clone the entire folder, []"analysis/functions"](https://github.com/tooles01/OlfaControl_GUI/tree/shannon-branch/analysis/functions) contains the dependencies for the plotting scripts (they will not run without those functions).
 
 
 
@@ -56,7 +56,7 @@ Plot olfactometer & PID data over time
 **More details [here](Documentation/README_a_plot_olfa_and_pid.md)**  
 
 
-## a_plot_spt_char.m
+### a_plot_spt_char.m
 **Plot setpoint characterization of trial** (Flow v. PID plot)  
 
 **Syntax**  
@@ -75,7 +75,7 @@ Plot olfactometer & PID data over time
 **More details [here](Documentation/README_a_plot_spt_char.md)**  
 
 
-## a_plot_on_top
+### a_plot_on_top
 **Plot a bunch of files on top of each other**
 
 **Syntax**  
@@ -87,10 +87,10 @@ Plot olfactometer & PID data over time
 - get_section_data
 </details>
 
-### More details [here](Documentation/README_a_plot_on_top.md)
+**### **More details [here](Documentation/README_a_plot_on_top.md)**
 
 
-## analysis_plot_standard_olfa.m
+### analysis_plot_standard_olfa.m
 **Plot file from standard olfactometer**
 
 **Description:**  
@@ -105,4 +105,3 @@ Plot olfactometer & PID data over time
     </details>
 
 **More details [here](Documentation/README_plot_standard_olfa.md)**  
-
