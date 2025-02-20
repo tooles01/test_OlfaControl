@@ -1,24 +1,9 @@
 # 8-line Olfactometer Hardware
 
-<!--
-## Image test
-
-![8-line olfactometer unit.png](images/8-line%20olfactometer%20unit.png)
-
--->
-
 ## Full System Overview
 
 ![olfa_front.jpg](images/olfa_front.jpg)
 ![olfa_back.jpg](images/olfa_back.jpg)
-
-<!--
-<p align="center"><img src="images/olfa_front.jpg" width="40%"></p>
-<br>
-
-<p align="center"><img src="images/olfa_back.jpg" width="40%"></p>
-<br>
--->
 
 <!--
 # shows blank images but works on index.md for some reason????
