@@ -26,6 +26,7 @@ nav:
     - Getting Started: ug_Getting_Started.md
     - Using the GUI: ug_Using_GUI.md
     - Mixing Chamber: ug_mixing_chamber.md
+    - Analysis tools: ug_analysis.md
 
 #- 8-line Mixing Chamber:
 #    - Electronics: Mixing-Chamber/Electronics/mc_electronics_README.md
