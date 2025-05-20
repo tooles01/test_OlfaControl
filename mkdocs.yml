@@ -42,8 +42,8 @@ nav:
 
 
 - 8-line Olfactometer:
-    - Hardware: Olfactometer/Hardware/olfa_Hardware.md
-    - Electronics: Olfactometer/Electronics/olfa_Electronics.md
+    - Hardware: Olfactometer/Hardware/Olfa_Hardware.md
+    - Electronics: Olfactometer/Electronics/Olfa_Electronics.md
     #- Troubleshooting: Olfactometer/Troubleshooting.md
     #- Synchronisation: user-guide/synchronisation.md 
     #- pyControl data: user-guide/pycontrol-data.md
